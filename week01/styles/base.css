@@ -178,3 +178,8 @@ footer {
         flex: 1 1 auto;
     }
 }
+
+.modification {
+    font-size: 0.8em;
+    color: #b7c149;
+}
