@@ -6,12 +6,15 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Kheri Gonzalez Azuara</title>
     <meta name="Description" content="Kheri Gonzalez Azuara’s WDD 131 - Dynamic Web Fundamentals portfolio: Personal bio, Mexican heritage highlights, and helpful web dev tools for students.">
     <meta name="Author" content="Kheri Gonzalez Azuara">
-    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
     <header>
         <div class="header-content">
-            <h1>WDD 131: Dynamic Web Fundamentals - Kheri Gonzalez Azuara</h1>
+            <h1>WDD 131: Dynamic Web Fundamentals - <span class="title-name">Kheri Gonzalez Azuara</span></h1>
         </div>
         <nav>
             <a href="https://www.linkedin.com/in/kheri-gonzalez/" target="_blank">LinkedIn</a>
@@ -22,30 +25,37 @@
     </header>
     <main>
         <div class="main-card">
-            <h2>About Me</h2>
+            <div class="title"><h2>About Me</h2></div>
             <div class="about-me">
-                <p>I’m Kheri Gonzalez, a proud father of three amazing girls, husband to a wonderful woman, and a lifelong football fan (go Patriots!). I work as a Data Analyst with a strong background in analytics, dashboards, and technical problem-solving. I’m currently earning my Bachelor’s in Software Development with the goal of starting my own tech business and traveling the world with my family. Whether I’m building data-driven solutions or enjoying game day with my daughters, I’m all about growth, learning, and creating a meaningful life.</p>
-            </div>
-            <h2>Puebla, Mexico</h2>
-            <div class="home-town">
-                <img class="flag" src="images/flag.webp" alt="Official Flag of Mexico"/>
-                <p>Puebla is a vibrant colonial city renowned for its UNESCO-listed historic center, Talavera pottery, and being the birthplace of mole poblano - a rich sauce legend says nuns invented in the 17th century to impress a bishop. Founded in 1531, Puebla offers stunning architecture with Popocatépetl volcano as its backdrop and holds special historical significance as the site of the 1862 Battle of Puebla that inspired Cinco de Mayo celebrations worldwide (though it's actually a bigger holiday abroad than in Mexico itself!).</p>
+                <div class="content">
+                    <p>My name is Kheri Gonzalez, a proud father of three amazing girls, husband to a wonderful woman, and a lifelong football fan (go Patriots!). I work as a Data Analyst with a strong background in analytics, dashboards, and technical problem-solving. I’m currently earning my Bachelor’s in Software Development with the goal of starting my own tech business and traveling the world with my family. Whether I’m building data-driven solutions or enjoying game day with my daughters, I’m all about growth, learning, and creating a meaningful life.</p>
+                    <div class="sub-title"><h2>Puebla, Mexico</h2></div>
+                    <div class="home-town">
+                        <figure>
+                            <img class="flag" src="images/flag.webp" figcaption="Official Flag of Mexico"/>
+                            <figcaption>Official Flag of Mexico</figcaption>
+                        </figure>
+                        <p>Puebla is a vibrant colonial city founded in 1531 and it's renowned for its Talavera pottery and mole poblano. Puebla offers stunning architecture with volcanoes as its backdrop, and holds special historical significance for the battle that inspired Cinco de Mayo celebrations worldwide.</p>
+                    </div>
+                </div>    
+                <img class="profile-pic" src="images/wife.webp" alt="Me & my wife"/>
             </div>
         </div>
         <div class="side-card">
-            <h2>Side Content</h2>
-            <ul>
-                <li><a href="https://developer.mozilla.org/en-US/">MDN</a></li>
-                <li><a href="https://placehold.co/">Placeholder</a></li>
-                <li><a href="https://www.siegemedia.com/contrast-ratio#%23000000-on-%23ffffff">Contrast Ratio</a></li>
-                <li><a href="https://cssgradient.io/">CSS Gradient</a></li>
-                <li><a href="https://wireframe.cc/pro/login.php">Wireframe</a></li>
-                <li><a href="https://unsplash.com/">Unsplash</a></li>
-                <li><a href="https://coolors.co/">Coolors</a></li>
-                <li><a href="https://www.udemy.com/">Udemy</a></li>
-            </ul>
+            <div class="title"><h2>Web Dev Resources</h2></div>
+            <div class="resources">    
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/" target="_blank">MDN</a></li>
+                    <li><a href="https://placehold.co/" target="_blank">Placeholder</a></li>
+                    <li><a href="https://www.siegemedia.com/contrast-ratio#%23000000-on-%23ffffff" target="_blank">Contrast Ratio</a></li>
+                    <li><a href="https://cssgradient.io/" target="_blank">CSS Gradient</a></li>
+                    <li><a href="https://wireframe.cc/pro/login.php" target="_blank">Wireframe</a></li>
+                    <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
+                    <li><a href="https://coolors.co/" target="_blank">Coolors</a></li>
+                    <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                </ul>
+            </div>
         </div>
-        <img class="profile-pic" src="images/wife.webp" alt="Me & my wife"/>
     </main>
     <footer>
         <p>©<span id="currentyear"></span> 😎 Kheri Gonzalez Azuara 😎 Puebla, Mexico</p>
